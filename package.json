@@ -1,0 +1,17 @@
+{
+  "name": "fire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./tests/auth.spec.ts",
+  "scripts": {
+    "scrape": "pnpm exec playwright test --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.5",
+    "dotenv": "^16.3.1"
+  }
+}
