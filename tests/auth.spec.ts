@@ -48,7 +48,7 @@ test("scrape", async ({ page }) => {
 
   console.log("result.size", result.size);
   writeFileSync(
-    "playwright/.auth/tweets.json",
+    "playwright/results/tweets.json",
     JSON.stringify(Array.from(result))
   );
 });
